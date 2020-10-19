@@ -272,23 +272,23 @@
             </table>
         </div>
     </div><!-- all twenty columns -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <a href="#" onclick="openOptions('server_configuration');return false;" class="u-pull-right">
                 <i class="fa fa-cog fa-spin"></i> <small>CUSTOMIZE</small>
             </a>
         </div>
-    </div>
+    </div> -->
     <!-- end of options container -->
-    <div class="container">
+    <!-- <div class="container">
         <div id="server_configuration" class="openDetails" style="display:none">
             <span onclick="this.parentElement.style.display='none'" class="u-pull-right"><i class="fa fa-close fa-2x"></i></span>
             <div class="row">
                 <h6>Dedicated Server Configuration<h6>
                         <small>Customize your Server to fit, start it today!</small>
-            </div>
+            </div> -->
             <!-- end of row -->
-            <div class="row">
+            <!-- <div class="row">
                 <form id="configFrom" onchange="updateServerOption()">
                     <div class="row">
                         <div class="four columns">
@@ -315,7 +315,7 @@
                                 <option>-- RAID --</option>
                             </select>
                         </div><!-- eof 1st columns -->
-                        <div class="four columns">
+                        <!-- <div class="four columns">
                             <h4>Network:</h4>
                             <select id="selectBW">
                                 <option>-- Bandwidth --</option>
@@ -330,19 +330,20 @@
                             <select id="selectDDoS">
                                 <option>-- DDoS Protection --</option>
                             </select>
-                        </div><!-- eof 2nd columns -->
-                        <div class="six columns">
+                        </div>eof 2nd columns -->
+                        <!-- <div class="six columns">
                             <h4>Summary:</h4>
                             <div id="configurationSummary"></div>
-                            <div id="websitePrice"></div>
+                            <div id="websitePrice"></div> -->
                             <!-- ===========================================  -->
-                        </div><!-- eof 3nd columns -->
-                    </div>
+                        <!-- </div>eof 3nd columns -->
+                    <!-- </div>
                 </form>
-            </div>
+            </div> -->
             <!-- end of row -->
             <!-- dedicated server upgrade option limitation -->
             <div class="row">
+                <div class="container">
                 <div style="font-color:grey; font-size:10px; text-align:right;">
                     <p>
                         Atom D525:
@@ -363,6 +364,7 @@
                         Max IPv4 Set: 4x;
                         Max Total IPv4: /24 (253);
                     </p>
+                    </div>
                 </div><!-- limitation -->
             </div>
         </div><!-- twenty columns -->
@@ -618,7 +620,7 @@
     <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/site.js"></script>
     <script src="javascripts/tabs.js"></script>
-    <script src="javascripts/config.js"></script>
+    <!-- <script src="javascripts/config.js"></script> -->
     <script src="javascripts/jquery.scrollUp.min.js"></script>
     <script>
     $(function() {
