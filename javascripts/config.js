@@ -85,7 +85,7 @@ const firewall = [
 const os = [
   ["Self-Install", 0],
   ["Linux", 0],
-  ["Windows 2019 STD", 100],
+  ["Windows Server STD", 100],
 ];
 // select options
 for (var k in cpu) {
